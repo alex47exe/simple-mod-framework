@@ -13,7 +13,7 @@ Each mod contains a manifest. Manifests have the following format:
 	"description": "It is a mod",
 	"authors": ["Atampy26", "No one else"],
 	"version": "1.0.0", // The mod's version, used to compare against the linked JSON - make sure to use semantic versioning (Major.Minor.Patch)
-	"frameworkVersion": "2.33.25", // The framework version the mod is designed for
+	"frameworkVersion": "2.33.29", // The framework version the mod is designed for
 
 	/* -------------------------------------- Optional data -------------------------------------- */
 	"updateCheck": "https://hitman-resources.netlify.app/framework/updates/exampleMod.json", // A JSON (see Mod Updates) that will be checked for updates (MUST BE HTTPS)
@@ -63,15 +63,15 @@ Each mod contains a manifest. Manifests have the following format:
 		{
 			// For new chunks; not recommended to use
 			"type": "partition",
-			"name": "myNewChunk29",
+			"name": "myNewChunk31",
 			"parent": "season3",
 			"partitionType": "standard"
 		},
 		{
 			// For new bricks/entities
 			"type": "entity",
-			"partition": "myNewChunk29",
-			"path": "[assembly:/_pro/myBricks/myNewChunk29Map.entity].entitytemplate"
+			"partition": "myNewChunk31",
+			"path": "[assembly:/_pro/myBricks/myNewChunk31Map.entity].entitytemplate"
 		}
 	],
 	"thumbs": ["ConsoleCmd AAAAAAAAAA"], // Thumbs.dat commands to place after [Hitman5]
